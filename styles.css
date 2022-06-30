@@ -59,7 +59,7 @@
     flex-flow: column-reverse wrap;
 }
 
-.cr-rwrap{/* Column-reverse e Wrap-reverse */
+.cr-rwrap{/* Column-reverse e Wrap-reverse ✔*/
     flex-flow: column-reverse wrap-reverse;
 }
 
