@@ -1,0 +1,76 @@
+.flex-container {
+    display: flex;
+    border: 1px #000 solid;
+    max-width: 500px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.row {
+    float: left;
+}
+.column {
+    float: right;
+}
+
+.default {  /* Row e Nowrap ✔*/
+    flex-flow: row nowrap;
+}
+
+.wrap { /* Row e Wrap ✔*/
+    flex-flow: row wrap;
+}
+
+.wrap-reverse { /* Row e Wrap-reverse ✔*/
+    flex-flow: row wrap-reverse;
+}
+
+.r-nowrap { /* Row-reverse e Nowrap ✔*/
+    flex-flow: row-reverse nowrap;
+}
+
+.r-wrap { /* Row-reverse e Wrap ✔*/
+    flex-flow: row-reverse wrap;
+}
+
+.rr-wrap { /* Row-reverse e Wrap-reverse ✔*/
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.c-default { /* Column e Nowrap ✔*/
+    flex-flow: column nowrap;
+    margin-bottom: 100px;
+}
+
+.c-rap { /* Column e wrap ✔*/
+    flex-flow: column wrap;
+}
+
+.c-rrap { /* Column e Wrap-reverse ✔*/
+    flex-flow: column wrap-reverse;
+}
+
+.cr-nowrap { /* Column-reverse e Nowrap ✔*/
+    flex-flow: column-reverse nowrap;
+    margin-top: 100px;
+}
+
+.cr-rap { /* Column-reverse e Wrap ✔*/
+    flex-flow: column-reverse wrap;
+}
+
+.cr-rwrap{/* Column-reverse e Wrap-reverse */
+    flex-flow: column-reverse wrap-reverse;
+}
+
+
+
+.item {
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
